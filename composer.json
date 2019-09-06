@@ -1,0 +1,38 @@
+{
+    "name": "liufeng/quanming",
+    "description": "dev",
+    "type": "porject",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "liufeng",
+            "email": "liufeng2015@tvmining.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "^1.1",
+        "curl/curl": "^1.6",
+        "nmred/kafka-php": "^0.1.5",
+        "lcobucci/jwt": "^4.0@alpha"
+    },
+    "autoload":{
+        "files":[
+            "core/Functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web",
+            "database\\":"database",
+            "config\\":"config",
+            "common\\":"common",
+            "console\\":"console"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

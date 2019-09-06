@@ -1,0 +1,34 @@
+#框架简要说明
+
+------
+
+
+>* view视图层使用说明
+>* model数据层使用说明
+>* composer authload使用说明
+
+
+
+![cmd-markdown-logo](https://avatars3.githubusercontent.com/u/11703314?s=400&u=e52a94144dcac9851b6ab0c941af0652f4c987b6&v=4)
+
+### [框架下载地址](https://github.com)
+
+
+------
+##View视图层说明
+目录在web/controller 控制层中使用视图,新的IndexController必须继承Basecontroller
+使用方法:
+- [x] 必须返回return
+ return $this->View->view('demo',$param);
+               View->view("对应的控制器的模板,默认view/Index/demo.php","前端变量");
+
+
+##Model数据层说明
+目录在web/model 数据层中使用,继承BaseController.
+使用方法:
+- [x] 使用Redis
+use database/Redis
+    $r=Redis::getConnect();
+
+
+

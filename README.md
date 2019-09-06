@@ -1,3 +1,6 @@
+
+本人博客地址:https://www.cnblogs.com/iifeng/ 没什么好说的都是干活,学起来,积累起来。
+
 框架第一版路由规则:
 PATH = local.lff.com  
 这里根据你自己配置的本地域名拼接
